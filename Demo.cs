@@ -162,6 +162,15 @@ namespace Sess3RecapLogica
         //e) a área do retângulo que tem lados A e B.
         public void FigurasGeometricas()
         {
+            double a, b, c, areaTriangulo, areaCirculo, areaTrapezio, areaQuadrado, areaRetangulo;
+
+            Console.WriteLine("Digite a base do triangulo: ");
+            a = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Digite a altura do triangulo: ");
+            b = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            areaTriangulo = a * b / 2;
+            Console.WriteLine("A área do trinagulo eh: "+ areaTriangulo.ToString("F2"));
 
         }
     }
