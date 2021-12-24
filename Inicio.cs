@@ -19,6 +19,7 @@ namespace Sess3RecapLogica
             //demo.Salario();
             //demo.Pecas();
             demo.FigurasGeometricas();
+            Console.WriteLine("HELLO!");
         }
     }
 }
